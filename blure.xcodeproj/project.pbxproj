@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2771307B1812E25200DC8D16 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2771307A1812E25200DC8D16 /* QuartzCore.framework */; };
 		27AC2D791812DFB30080C360 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AC2D781812DFB30080C360 /* Foundation.framework */; };
 		27AC2D7B1812DFB30080C360 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AC2D7A1812DFB30080C360 /* CoreGraphics.framework */; };
 		27AC2D7D1812DFB30080C360 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AC2D7C1812DFB30080C360 /* UIKit.framework */; };
@@ -22,6 +23,7 @@
 		27AC2D9D1812DFB30080C360 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AC2D7C1812DFB30080C360 /* UIKit.framework */; };
 		27AC2DA51812DFB30080C360 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27AC2DA31812DFB30080C360 /* InfoPlist.strings */; };
 		27AC2DA71812DFB30080C360 /* blureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AC2DA61812DFB30080C360 /* blureTests.m */; };
+		27AC2DB11812E00A0080C360 /* the-beauty-of-natural-bigger-breast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC2DB01812E00A0080C360 /* the-beauty-of-natural-bigger-breast.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2771307A1812E25200DC8D16 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		27AC2D751812DFB30080C360 /* blure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27AC2D781812DFB30080C360 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		27AC2D7A1812DFB30080C360 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +58,7 @@
 		27AC2DA21812DFB30080C360 /* blureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "blureTests-Info.plist"; sourceTree = "<group>"; };
 		27AC2DA41812DFB30080C360 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		27AC2DA61812DFB30080C360 /* blureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blureTests.m; sourceTree = "<group>"; };
+		27AC2DB01812E00A0080C360 /* the-beauty-of-natural-bigger-breast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-beauty-of-natural-bigger-breast.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2771307B1812E25200DC8D16 /* QuartzCore.framework in Frameworks */,
 				27AC2D7B1812DFB30080C360 /* CoreGraphics.framework in Frameworks */,
 				27AC2D7D1812DFB30080C360 /* UIKit.framework in Frameworks */,
 				27AC2D791812DFB30080C360 /* Foundation.framework in Frameworks */,
@@ -103,6 +108,7 @@
 		27AC2D771812DFB30080C360 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2771307A1812E25200DC8D16 /* QuartzCore.framework */,
 				27AC2D781812DFB30080C360 /* Foundation.framework */,
 				27AC2D7A1812DFB30080C360 /* CoreGraphics.framework */,
 				27AC2D7C1812DFB30080C360 /* UIKit.framework */,
@@ -114,6 +120,7 @@
 		27AC2D7E1812DFB30080C360 /* blure */ = {
 			isa = PBXGroup;
 			children = (
+				27AC2DB01812E00A0080C360 /* the-beauty-of-natural-bigger-breast.jpg */,
 				27AC2D871812DFB30080C360 /* AppDelegate.h */,
 				27AC2D881812DFB30080C360 /* AppDelegate.m */,
 				27AC2D8A1812DFB30080C360 /* Main_iPhone.storyboard */,
@@ -235,6 +242,7 @@
 				27AC2D941812DFB30080C360 /* Images.xcassets in Resources */,
 				27AC2D8C1812DFB30080C360 /* Main_iPhone.storyboard in Resources */,
 				27AC2D831812DFB30080C360 /* InfoPlist.strings in Resources */,
+				27AC2DB11812E00A0080C360 /* the-beauty-of-natural-bigger-breast.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +482,7 @@
 				27AC2DAC1812DFB30080C360 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27AC2DAD1812DFB30080C360 /* Build configuration list for PBXNativeTarget "blureTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +491,7 @@
 				27AC2DAF1812DFB30080C360 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
